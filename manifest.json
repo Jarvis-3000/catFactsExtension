@@ -1,0 +1,25 @@
+{
+    "manifest_version":2,
+    "name":"Cat Facts",
+    "version":"1.0",
+    "description":"My first chrome extension",
+
+    "icons":{
+        "128":"cat128.png",
+        "48":"cat48.png",
+        "16":"cat16.png"
+    },
+
+    "browser_action":{
+        "default_icon":"cat16.png",
+        "default_popup":"catFacts.html"
+    },
+
+    "options_page":"option.html",
+
+
+    "permissions":[
+        "storage",
+        "notifications"
+    ]
+}
